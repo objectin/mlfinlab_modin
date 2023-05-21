@@ -1,0 +1,13 @@
+codecov
+coverage
+cvxpy
+numba
+numpy
+matplotlib
+pandas
+pylint
+scikit-learn
+scipy
+sphinx
+sphinx-rtd-theme
+statsmodels
