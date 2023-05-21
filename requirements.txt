@@ -11,4 +11,4 @@ scipy
 sphinx
 sphinx-rtd-theme
 statsmodels
-modin["all"]
+modin
