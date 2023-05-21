@@ -6,7 +6,7 @@ import os
 import unittest
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.filters.filters import cusum_filter
 from mlfinlab.labeling.labeling import add_vertical_barrier, get_events, get_bins, drop_labels

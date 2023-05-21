@@ -61,7 +61,7 @@ Below is an example on how to use the raw returns labeling method.
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from mlfinlab.labeling import raw_return
 
     # Import price data

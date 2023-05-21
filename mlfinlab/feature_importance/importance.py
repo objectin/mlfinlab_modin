@@ -4,7 +4,7 @@ Learning and Clustered Feature Importance algorithms as described in Chapter 6 S
 Asset Managers.
 """
 
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 from sklearn.metrics import log_loss
 import matplotlib.pyplot as plt

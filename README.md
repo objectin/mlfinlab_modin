@@ -18,7 +18,7 @@
 MlFinlab is a python package which helps portfolio managers and traders who want to leverage the power of machine learning by providing reproducible, interpretable, and easy to use tools. 
 Adding MlFinLab to your companies pipeline is like adding a department of PhD researchers to your team.
 
-> **pip install git+https://github.com/objectin/mlfinlab_fix.git**
+> **pip install git+https://github.com/objectin/mlfinlab_modin.git**
 
 We source all of our implementations from the most elite and peer-reviewed journals. Including publications from: 
 1. [The Journal of Financial Data Science](https://jfds.pm-research.com/)

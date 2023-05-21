@@ -19,7 +19,7 @@ Many of the projects going forward will require Dollar and Volume bars.
 from typing import Union, Iterable, Optional
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.data_structures.base_bars import BaseBars
 

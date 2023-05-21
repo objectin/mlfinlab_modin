@@ -7,7 +7,7 @@ Work "Evaluating multiple classifiers for stock price direction prediction" by B
 to label yearly returns over a predetermined value to compare the performance of several machine learning algorithms.
 """
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 
 def return_over_benchmark(prices, benchmark=0, binary=False, resample_by=None, lag=True):

@@ -5,7 +5,7 @@ Tests the Nested Clustered Optimization (NCO) algorithm.
 
 import unittest
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from mlfinlab.portfolio_optimization.nco import NCO
 
 

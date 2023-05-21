@@ -4,7 +4,7 @@ These implementations are based on bet sizing approaches described in Chapter 10
 """
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from scipy.stats import norm, moment
 
 from mlfinlab.bet_sizing.ch10_snippets import get_signal, avg_active_signals, discrete_signal

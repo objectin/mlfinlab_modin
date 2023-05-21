@@ -4,7 +4,7 @@ Test various volatility estimates
 
 import unittest
 import os
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.util import get_parksinson_vol, get_yang_zhang_vol, get_garman_class_vol
 

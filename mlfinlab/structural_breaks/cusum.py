@@ -2,7 +2,7 @@
 Implementation of Chu-Stinchcombe-White test
 """
 
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 from mlfinlab.util import mp_pandas_obj
 

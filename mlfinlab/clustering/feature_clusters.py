@@ -6,7 +6,7 @@ in the book Machine Learning for Asset Managers Snippet 6.5.2 page 84.
 
 #Imports
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 import statsmodels.api as sm
 from scipy.spatial.distance import squareform
 from scipy.cluster.hierarchy import linkage, fcluster

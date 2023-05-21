@@ -5,7 +5,7 @@ Implements the Combinatorial Purged Cross-Validation class from Chapter 12
 from itertools import combinations
 from typing import List
 
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 
 from scipy.special import comb

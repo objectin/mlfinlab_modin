@@ -4,7 +4,7 @@ Tests the unit functions in ef3m.py for calculating fitting a mixture of 2 Gauss
 
 import unittest
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from scipy.special import comb
 
 from mlfinlab.bet_sizing.ef3m import (M2N, centered_moment, raw_moment, most_likely_parameters, iter_4_jit, iter_5_jit)

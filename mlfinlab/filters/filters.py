@@ -5,7 +5,7 @@ to some event horizon, say a day.
 """
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 
 # Snippet 2.4, page 39, The Symmetric CUSUM Filter.

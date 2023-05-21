@@ -5,7 +5,7 @@ import numbers
 import itertools
 from warnings import warn
 from abc import ABCMeta, abstractmethod
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor

@@ -5,7 +5,7 @@ or from in memory pandas DataFrames
 """
 
 import warnings
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 
 

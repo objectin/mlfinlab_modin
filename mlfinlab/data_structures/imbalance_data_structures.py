@@ -24,7 +24,7 @@ https://towardsdatascience.com/financial-machine-learning-part-0-bars-745897d4e4
 from typing import Union, Iterable, List, Optional
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.data_structures.base_bars import BaseImbalanceBars
 from mlfinlab.util.fast_ewma import ewma

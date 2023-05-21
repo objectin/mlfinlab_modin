@@ -31,7 +31,7 @@ Example
 
 .. code-block::
 
-   import pandas as pd
+   import modin.pandas as pd
    from mlfinlab.codependence import get_dependence_matrix, get_distance_matrix
 
     # Import dataframe of returns for assets in a portfolio

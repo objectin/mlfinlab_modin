@@ -25,7 +25,7 @@ An example of using SequentiallyBootstrappedBaggingClassifier
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from sklearn.ensemble import RandomForestClassifier
     from mlfinlab.ensemble import SequentiallyBootstrappedBaggingClassifier
 

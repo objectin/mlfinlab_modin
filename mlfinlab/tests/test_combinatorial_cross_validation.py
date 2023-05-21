@@ -2,7 +2,7 @@
 Tests the cross validation technique described in Ch.7 of the book.
 """
 import unittest
-import pandas as pd
+import modin.pandas as pd
 from mlfinlab.cross_validation import CombinatorialPurgedKFold
 
 

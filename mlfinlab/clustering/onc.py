@@ -7,7 +7,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3167017
 from typing import Union
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_samples

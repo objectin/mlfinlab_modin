@@ -7,7 +7,7 @@ from abc import ABC, abstractmethod
 from typing import Tuple, Union, Generator, Iterable, Optional
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.util.fast_ewma import ewma
 

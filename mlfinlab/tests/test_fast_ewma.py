@@ -5,7 +5,7 @@ Tests ewma function from fast_ewma module
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.util.fast_ewma import ewma
 

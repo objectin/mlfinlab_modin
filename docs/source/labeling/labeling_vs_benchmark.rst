@@ -80,7 +80,7 @@ Below is an example on how to use the return over benchmark labeling technique o
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from mlfinlab.labeling import return_vs_benchmark
 
     # Import price data.

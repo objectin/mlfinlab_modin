@@ -177,7 +177,7 @@ minimum d value that passes the ADF test can be derived as follows:
 .. code-block::
 
    import numpy as np
-   import pandas as pd
+   import modin.pandas as pd
 
    from mlfinlab.features.fracdiff import frac_diff_ffd, plot_min_ffd
 

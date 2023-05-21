@@ -5,7 +5,7 @@ Tests the different portfolio optimisation algorithms
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from mlfinlab.portfolio_optimization.herc import HierarchicalEqualRiskContribution
 from mlfinlab.portfolio_optimization.returns_estimators import ReturnsEstimators
 

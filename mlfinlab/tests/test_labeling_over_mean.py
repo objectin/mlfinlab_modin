@@ -3,7 +3,7 @@
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.labeling.excess_over_mean import excess_over_mean
 

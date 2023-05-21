@@ -5,7 +5,7 @@ Test various filters.
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.filters.filters import cusum_filter, z_score_filter
 

@@ -107,7 +107,7 @@ An example showing how the ONC algorithm is used can be seen below:
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from mlfinlab.clustering import onc
 
     # Import dataframe of returns for assets

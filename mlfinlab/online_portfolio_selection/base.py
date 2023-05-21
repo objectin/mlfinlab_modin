@@ -1,6 +1,6 @@
 # pylint: disable=missing-module-docstring
 import sys
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 import cvxpy as cp
 

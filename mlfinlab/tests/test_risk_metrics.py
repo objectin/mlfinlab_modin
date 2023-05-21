@@ -1,7 +1,7 @@
 # pylint: disable=missing-module-docstring
 import unittest
 import os
-import pandas as pd
+import modin.pandas as pd
 from mlfinlab.portfolio_optimization.risk_metrics import RiskMetrics
 
 

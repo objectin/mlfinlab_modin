@@ -56,7 +56,7 @@ The example will generate 4 clusters by Hierarchical Clustering for given specif
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from mlfinlab.clustering.feature_clusters import get_feature_clusters
 
     # Read the a csv file containing only features

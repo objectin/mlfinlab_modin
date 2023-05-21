@@ -3,7 +3,7 @@ First generation features (Roll Measure/Impact, Corwin-Schultz spread estimator)
 """
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 
 def get_roll_measure(close_prices: pd.Series, window: int = 20) -> pd.Series:

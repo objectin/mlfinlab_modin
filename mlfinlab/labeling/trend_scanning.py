@@ -3,7 +3,7 @@ Implementation of Trend-Scanning labels described in `Advances in Financial Mach
 <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2708678>`_
 """
 
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 
 from mlfinlab.structural_breaks.sadf import get_betas

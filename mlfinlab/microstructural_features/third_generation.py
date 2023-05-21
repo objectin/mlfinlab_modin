@@ -1,7 +1,7 @@
 """
 Third generation models implementation (VPIN)
 """
-import pandas as pd
+import modin.pandas as pd
 
 
 def get_vpin(volume: pd.Series, buy_volume: pd.Series, window: int = 1) -> pd.Series:

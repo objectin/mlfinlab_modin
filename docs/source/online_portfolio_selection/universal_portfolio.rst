@@ -77,7 +77,7 @@ Example Code
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from mlfinlab.online_portfolio_selection import *
 
     # Read in data.

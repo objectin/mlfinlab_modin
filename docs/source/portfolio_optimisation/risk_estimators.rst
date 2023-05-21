@@ -403,7 +403,7 @@ Example Code
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     import numpy as np
     from mlfinlab.portfolio_optimization import RiskEstimators, ReturnsEstimators
 

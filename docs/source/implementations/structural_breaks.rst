@@ -311,7 +311,7 @@ Examples
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     import numpy as np
     from mlfinlab.structural_breaks import (get_chu_stinchcombe_white_statistics,
                                             get_chow_type_stat, get_sadf)

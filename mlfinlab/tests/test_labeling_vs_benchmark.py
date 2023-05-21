@@ -3,7 +3,7 @@
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from mlfinlab.labeling.return_vs_benchmark import return_over_benchmark
 
 

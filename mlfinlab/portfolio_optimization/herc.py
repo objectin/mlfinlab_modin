@@ -1,6 +1,6 @@
 # pylint: disable=missing-module-docstring
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import pairwise_distances
 from scipy.cluster.hierarchy import fcluster

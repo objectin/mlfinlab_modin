@@ -109,7 +109,7 @@ Below is an example on how to create the positive, negative, and full matrix Tai
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from mlfinlab.labeling import TailSetLabels
 
     # Import price data

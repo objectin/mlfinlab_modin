@@ -5,7 +5,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3512994&download=yes
 """
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.codependence.information import variation_of_information_score, get_mutual_info
 from mlfinlab.codependence.correlation import distance_correlation

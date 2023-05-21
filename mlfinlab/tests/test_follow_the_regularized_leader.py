@@ -4,7 +4,7 @@ Tests Follow the Regularized Leader.
 from unittest import TestCase
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from mlfinlab.online_portfolio_selection.ftrl import FTRL
 
 

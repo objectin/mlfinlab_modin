@@ -5,7 +5,7 @@ Test various functions regarding chapter 4: Return/Time attribution
 import os
 import unittest
 
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.filters.filters import cusum_filter
 from mlfinlab.labeling.labeling import get_events, add_vertical_barrier

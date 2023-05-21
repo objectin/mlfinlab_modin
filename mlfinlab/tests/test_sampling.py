@@ -5,7 +5,7 @@ Test various functions regarding chapter 4: Sampling (Bootstrapping, Concurrency
 import unittest
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.sampling.bootstrapping import seq_bootstrap, get_ind_matrix, get_ind_mat_average_uniqueness, \
     _bootstrap_loop_run, get_ind_mat_label_uniqueness  # pylint: disable=protected-access

@@ -9,7 +9,7 @@ import datetime as dt
 import multiprocessing as mp
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 
 # Snippet 20.5 (page 306), the lin_parts function

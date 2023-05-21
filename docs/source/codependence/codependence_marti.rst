@@ -176,7 +176,7 @@ The following example shows how the above functions can be used:
 
 .. code-block::
 
-   import pandas as pd
+   import modin.pandas as pd
    from mlfinlab.codependence import spearmans_rho, gpr_distance, gnpr_distance
 
    # Getting the dataframe with time series of returns

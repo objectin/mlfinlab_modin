@@ -6,7 +6,7 @@ import os
 import unittest
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from sklearn.metrics import precision_score, roc_auc_score, accuracy_score, mean_absolute_error, \
     mean_squared_error

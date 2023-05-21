@@ -2,7 +2,7 @@
 Inter-bar feature generator which uses trades data and bars index to calculate inter-bar features
 """
 
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 from mlfinlab.microstructural_features.entropy import get_shannon_entropy, get_plug_in_entropy, get_lempel_ziv_entropy, \
     get_konto_entropy

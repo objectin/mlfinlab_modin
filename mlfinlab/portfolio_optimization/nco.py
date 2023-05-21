@@ -1,6 +1,6 @@
 # pylint: disable=missing-module-docstring
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from sklearn.covariance import LedoitWolf
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_samples

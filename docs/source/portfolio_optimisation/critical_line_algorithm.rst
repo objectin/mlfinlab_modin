@@ -166,7 +166,7 @@ Example Code
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from mlfinlab.portfolio_optimization.cla import CriticalLineAlgorithm
 
     # Read in data

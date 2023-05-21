@@ -2,7 +2,7 @@
 Logic regarding concurrent labels from chapter 4.
 """
 
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.util.multiprocess import mp_pandas_obj
 

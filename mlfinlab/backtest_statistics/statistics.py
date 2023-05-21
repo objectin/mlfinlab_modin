@@ -8,7 +8,7 @@ Implements statistics related to:
 - minimum track record length
 """
 import warnings
-import pandas as pd
+import modin.pandas as pd
 import scipy.stats as ss
 import numpy as np
 

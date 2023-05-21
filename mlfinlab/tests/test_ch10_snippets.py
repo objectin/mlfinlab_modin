@@ -6,7 +6,7 @@ import unittest
 import warnings
 import datetime as dt
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from scipy.stats import norm
 

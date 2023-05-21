@@ -4,7 +4,7 @@ sandbox data
 """
 
 import os
-import pandas as pd
+import modin.pandas as pd
 
 
 def load_stock_prices() -> pd.DataFrame:

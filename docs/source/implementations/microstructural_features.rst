@@ -96,7 +96,7 @@ Example
 .. code-block::
 
    import numpy as np
-   import pandas as pd
+   import modin.pandas as pd
    from mlfinlab.microstructural_features import quantile_mapping, MicrostructuralFeaturesGenerator
 
    df_trades = pd.read_csv('TRADES_PATH', parse_dates=[0])

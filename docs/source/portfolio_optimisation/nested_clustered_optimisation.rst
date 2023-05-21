@@ -132,7 +132,7 @@ Below is an example of how to use the package functions to calculate risk metric
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from mlfinlab.portfolio_optimization import NCO
 
     # Import dataframe of returns for assets in a portfolio

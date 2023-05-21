@@ -3,7 +3,7 @@
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from mlfinlab.labeling.fixed_time_horizon import fixed_time_horizon
 
 

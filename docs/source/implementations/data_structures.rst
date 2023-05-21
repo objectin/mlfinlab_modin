@@ -374,7 +374,7 @@ First import your tick data.
 
    # Required Imports
    import numpy as np
-   import pandas as pd
+   import modin.pandas as pd
 
    data = pd.read_csv('data.csv')
 

@@ -3,7 +3,7 @@ Explosiveness tests: SADF
 """
 
 from typing import Union, Tuple
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 from mlfinlab.util.multiprocess import mp_pandas_obj
 

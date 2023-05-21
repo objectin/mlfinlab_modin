@@ -2,7 +2,7 @@
 Logic regarding sequential bootstrapping from chapter 4.
 """
 
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 from numba import jit, prange
 

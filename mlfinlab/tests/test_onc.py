@@ -3,7 +3,7 @@ Test Optimal Number of Clusters algorithm
 """
 
 import unittest
-import pandas as pd
+import modin.pandas as pd
 from sklearn.datasets import load_breast_cancer
 
 from mlfinlab.clustering import get_onc_clusters

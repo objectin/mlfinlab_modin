@@ -5,7 +5,7 @@ Test structural break tests: Chow-type, CUSUM, SADF
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.structural_breaks import (get_chow_type_stat, get_sadf, get_chu_stinchcombe_white_statistics)
 

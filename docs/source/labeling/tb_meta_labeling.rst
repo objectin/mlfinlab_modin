@@ -134,7 +134,7 @@ model, the process to generate meta-labels goes as follows.
 .. code-block::
 
    import numpy as np
-   import pandas as pd
+   import modin.pandas as pd
    import mlfinlab as ml
 
    # Read in data

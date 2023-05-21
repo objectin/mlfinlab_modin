@@ -91,7 +91,7 @@ Below is an example of how to use the package functions to calculate various est
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from mlfinlab.portfolio_optimization import ReturnsEstimators
 
     # Import dataframe of prices for assets in a portfolio

@@ -6,7 +6,7 @@ import unittest
 from unittest.mock import patch
 import datetime as dt
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from scipy.stats import norm, moment
 
 from mlfinlab.bet_sizing.bet_sizing import (bet_size_probability, bet_size_dynamic, bet_size_budget, bet_size_reserve,

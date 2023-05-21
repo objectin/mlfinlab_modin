@@ -4,7 +4,7 @@ Test Trend Scanning labels
 
 import os
 import unittest
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.labeling import trend_scanning_labels
 

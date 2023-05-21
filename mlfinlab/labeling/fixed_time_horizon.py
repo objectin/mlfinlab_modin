@@ -6,7 +6,7 @@ labeling data this way can be used in training deep neural networks to predict p
 """
 
 import warnings
-import pandas as pd
+import modin.pandas as pd
 
 
 def fixed_time_horizon(prices, threshold=0, resample_by=None, lag=True, standardized=False, window=None):

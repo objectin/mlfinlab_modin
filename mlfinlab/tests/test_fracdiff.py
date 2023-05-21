@@ -6,7 +6,7 @@ import unittest
 import os
 import math
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.features import fracdiff, plot_min_ffd
 

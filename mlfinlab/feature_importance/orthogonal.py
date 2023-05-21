@@ -2,7 +2,7 @@
 Module which implements feature PCA compression and PCA analysis of feature importance.
 """
 
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 from scipy.stats import weightedtau, kendalltau, spearmanr, pearsonr
 

@@ -45,7 +45,7 @@ An example of calculating average uniqueness given that we have already have our
 
 .. code-block::
 
-   import pandas as pd
+   import modin.pandas as pd
    import numpy as np
    from mlfinlab.sampling.concurrent import get_av_uniqueness_from_triple_barrier
 
@@ -312,7 +312,7 @@ This function can be utilized as shown below assuming we have already found our 
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     import numpy as np
     from mlfinlab.sample_weights.attribution import get_weights_by_return
 
@@ -334,7 +334,7 @@ This function can be utilized as shown below assuming we have already found our 
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     import numpy as np
     from mlfinlab.sample_weights.attribution import get_weights_by_time_decay
 

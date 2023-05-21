@@ -3,7 +3,7 @@ Logic regarding return and time decay attribution for sample weights from chapte
 """
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.sampling.concurrent import num_concurrent_events, get_av_uniqueness_from_triple_barrier
 from mlfinlab.util.multiprocess import mp_pandas_obj

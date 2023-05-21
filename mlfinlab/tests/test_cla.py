@@ -5,7 +5,7 @@ Tests the Critical Line Algorithm (CLA).
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from mlfinlab.portfolio_optimization.cla import CriticalLineAlgorithm
 from mlfinlab.portfolio_optimization.returns_estimators import ReturnsEstimators
 

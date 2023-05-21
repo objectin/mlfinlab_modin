@@ -1,6 +1,6 @@
 # pylint: disable=missing-module-docstring
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 import cvxpy as cp
 import matplotlib.pyplot as plt
 from mlfinlab.portfolio_optimization.returns_estimators import ReturnsEstimators

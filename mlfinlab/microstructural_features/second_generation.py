@@ -4,7 +4,7 @@ Second generation models features: Kyle lambda, Amihud Lambda, Hasbrouck lambda 
 
 from typing import List
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.structural_breaks.sadf import get_betas
 

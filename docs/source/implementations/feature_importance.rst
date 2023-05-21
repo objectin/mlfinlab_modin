@@ -36,7 +36,7 @@ An example showing how to use various feature importance functions:
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from sklearn.ensemble import RandomForestClassifier
     from sklearn.metrics import accuracy_score, log_loss
 
@@ -243,7 +243,7 @@ Example
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from sklearn.datasets import load_boston
     from sklearn.ensemble import RandomForestRegressor
     from mlfinlab.feature_importance import RegressionModelFingerprint
@@ -310,7 +310,7 @@ Let's see how PCA feature extraction is analysis are done using mlfinlab functio
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     from mlfinlab.feature_importance.orthogonal import (get_orthogonal_features,
                                                         feature_pca_analysis)
 

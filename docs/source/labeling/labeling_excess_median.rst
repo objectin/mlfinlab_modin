@@ -69,7 +69,7 @@ Below is an example on how to create labels of excess over median from real data
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     import yfinance as yf
     from mlfinlab.labeling import excess_over_median
 

@@ -75,7 +75,7 @@ Below is an example on how to use the Fixed Horizon labeling technique on real d
 
 .. code-block::
 
-    import pandas as pd
+    import modin.pandas as pd
     import numpy as np
 
     from mlfinlab.labeling import fixed_time_horizon

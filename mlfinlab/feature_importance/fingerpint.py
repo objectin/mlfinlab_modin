@@ -6,7 +6,7 @@ Implementation of an algorithm described in Yimou Li, David Turkington, Alireza 
 
 from abc import ABC, abstractmethod
 from typing import Tuple
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression

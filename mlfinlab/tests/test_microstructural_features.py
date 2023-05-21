@@ -6,7 +6,7 @@ import os
 import unittest
 
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.data_structures import get_volume_bars
 from mlfinlab.microstructural_features import (get_vpin, get_bar_based_amihud_lambda, get_bar_based_kyle_lambda,

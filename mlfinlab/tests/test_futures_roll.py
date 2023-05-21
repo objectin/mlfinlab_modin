@@ -5,7 +5,7 @@ Tests the financial data structures
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.multi_product.etf_trick import get_futures_roll_series
 

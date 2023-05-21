@@ -2,7 +2,7 @@
 Explosiveness tests: Chow-Type Dickey-Fuller Test
 """
 
-import pandas as pd
+import modin.pandas as pd
 from mlfinlab.structural_breaks.sadf import get_betas
 from mlfinlab.util import mp_pandas_obj
 

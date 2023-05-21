@@ -5,7 +5,7 @@ Tests the financial data structures
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.data_structures import imbalance_data_structures as ds
 

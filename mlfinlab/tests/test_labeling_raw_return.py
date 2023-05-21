@@ -4,7 +4,7 @@
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 
 from mlfinlab.labeling.raw_return import raw_return
 

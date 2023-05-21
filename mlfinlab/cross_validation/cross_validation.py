@@ -3,7 +3,7 @@ Implements the book chapter 7 on Cross Validation for financial data.
 """
 
 from typing import Callable
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 
 from sklearn.metrics import log_loss

@@ -6,7 +6,7 @@ Tests the functions from the RiskEstimators class.
 import unittest
 import os
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from mlfinlab.portfolio_optimization.risk_estimators import RiskEstimators
 from mlfinlab.portfolio_optimization.returns_estimators import ReturnsEstimators
 

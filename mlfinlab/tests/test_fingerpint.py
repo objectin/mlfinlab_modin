@@ -3,7 +3,7 @@ Test RegressionModelFingerprint and ClassificationModelFingerprint implementatio
 """
 
 import unittest
-import pandas as pd
+import modin.pandas as pd
 from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
 from sklearn.linear_model import LinearRegression
 from sklearn.datasets import load_boston, load_breast_cancer

@@ -1,6 +1,6 @@
 # pylint: disable=missing-module-docstring
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from scipy.cluster.hierarchy import linkage as scipy_linkage, dendrogram
 from scipy.spatial.distance import squareform
 from mlfinlab.portfolio_optimization.returns_estimators import ReturnsEstimators

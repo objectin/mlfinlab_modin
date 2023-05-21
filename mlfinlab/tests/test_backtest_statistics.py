@@ -5,7 +5,7 @@ import os
 import unittest
 
 import datetime as dt
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 
 from mlfinlab.backtest_statistics.statistics import (timing_of_flattening_and_flips, average_holding_period,

@@ -7,7 +7,7 @@ approach to mathematical portfolio oversight: The EF3M algorithm." Quantitative 
 import sys
 from multiprocessing import cpu_count, Pool
 import numpy as np
-import pandas as pd
+import modin.pandas as pd
 from scipy.special import comb
 from scipy.stats import gaussian_kde
 from numba import njit, objmode

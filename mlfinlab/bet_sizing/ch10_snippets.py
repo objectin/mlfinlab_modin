@@ -6,7 +6,7 @@ otherwise unaltered.
 """
 
 import warnings
-import pandas as pd
+import modin.pandas as pd
 import numpy as np
 from scipy.stats import norm
 
